@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "target": "es6",
+    "module": "commonjs",
+    "jsx": "react-native",
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "sourceMap": false,
     "baseUrl": ".",
     "paths": {
