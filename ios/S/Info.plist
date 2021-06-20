@@ -35,6 +35,12 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Georgia.ttf</string>
+		<string>SFProText-Medium.otf</string>
+		<string>SFProText-Regular.otf</string>
+	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
