@@ -1,13 +1,15 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
+import {StatusBar} from 'react-native';
+
+import AppNavContainer from 'navigation/';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>React Native S</Text>
-      </View>
-    </SafeAreaView>
+    <>
+      <StatusBar barStyle="dark-content" backgroundColor="#333333" />
+      <AppNavContainer />
+    </>
   );
 };
 

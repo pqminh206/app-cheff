@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "target": "es6",
+    "module": "commonjs",
+    "jsx": "react-native",
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "sourceMap": false,
     "baseUrl": ".",
     "paths": {
       "root": ["./*"],
       "assets/*": ["./src/assets/*"],
       "components/*": ["./src/components/*"],
+      "config/*": ["./src/config/*"],
       "contexts/*": ["./src/contexts/*"],
       "features/*": ["./src/features/*"],
       "hooks/*": ["./src/hooks/*"],

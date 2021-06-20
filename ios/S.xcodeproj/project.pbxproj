@@ -13,6 +13,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		207751C786F6346A313CA306 /* libPods-S.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2491B8E0EBFCFF1698E88BAF /* libPods-S.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B908122F267C9BC6001C0D1B /* SFProText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B908122C267C9BC6001C0D1B /* SFProText-Medium.otf */; };
+		B9081230267C9BC6001C0D1B /* Georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B908122D267C9BC6001C0D1B /* Georgia.ttf */; };
+		B9081231267C9BC6001C0D1B /* SFProText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B908122E267C9BC6001C0D1B /* SFProText-Regular.otf */; };
 		F8BF1922BB4DB4B2ED75140A /* libPods-S-STests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F99C8E08D71CB4C036A4AF /* libPods-S-STests.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		2491B8E0EBFCFF1698E88BAF /* libPods-S.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-S.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = S/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F99C8E08D71CB4C036A4AF /* libPods-S-STests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-S-STests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B908122C267C9BC6001C0D1B /* SFProText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.otf"; path = "../src/assets/fonts/SFProText-Medium.otf"; sourceTree = "<group>"; };
+		B908122D267C9BC6001C0D1B /* Georgia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Georgia.ttf; path = ../src/assets/fonts/Georgia.ttf; sourceTree = "<group>"; };
+		B908122E267C9BC6001C0D1B /* SFProText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.otf"; path = "../src/assets/fonts/SFProText-Regular.otf"; sourceTree = "<group>"; };
 		D2582B90DA2CB6EA476BFD09 /* Pods-S.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S.release.xcconfig"; path = "Target Support Files/Pods-S/Pods-S.release.xcconfig"; sourceTree = "<group>"; };
 		D3E024CA9B26F6E86EA0C31C /* Pods-S.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S.debug.xcconfig"; path = "Target Support Files/Pods-S/Pods-S.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -92,6 +98,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B908122B267C9B58001C0D1B /* Resources */,
 			);
 			name = S;
 			sourceTree = "<group>";
@@ -114,7 +121,6 @@
 				0598BC537F06D3344B2C3CAC /* Pods-S-STests.debug.xcconfig */,
 				1FE182B60D2A0D3432E93DD8 /* Pods-S-STests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +153,16 @@
 				00E356EE1AD99517003FC87E /* STests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B908122B267C9B58001C0D1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B908122D267C9BC6001C0D1B /* Georgia.ttf */,
+				B908122C267C9BC6001C0D1B /* SFProText-Medium.otf */,
+				B908122E267C9BC6001C0D1B /* SFProText-Regular.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				B9081230267C9BC6001C0D1B /* Georgia.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B9081231267C9BC6001C0D1B /* SFProText-Regular.otf in Resources */,
+				B908122F267C9BC6001C0D1B /* SFProText-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
