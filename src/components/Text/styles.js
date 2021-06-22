@@ -26,8 +26,8 @@ export const styles = StyleSheet.create({
   },
   desc: {
     fontFamily: fonts.SFProDisplayRegular,
-    fontSize: moderateScale(15),
-    lineHeight: moderateScale(18),
+    fontSize: moderateScale(13),
+    lineHeight: moderateScale(16),
     color: colors.electric,
   },
 });

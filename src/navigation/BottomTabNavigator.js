@@ -7,6 +7,7 @@ import HeartScreen from 'features/HeartScreen';
 import SearchScreen from 'features/SearchScreen';
 import SettingScreen from 'features/SettingScreen';
 
+import colors from 'config/colors';
 import {CheffIcon, HeartIcon, SearchIcon, TwoBarIcon} from 'assets/images/svg';
 import {styles} from './styles';
 
@@ -33,7 +34,7 @@ const BottomTabNavigator = () => {
       id: 'Heart',
       tabName: 'Heart',
       component: HeartScreen,
-      icon: <HeartIcon />,
+      icon: <HeartIcon fill={colors.electric} />,
       valueAnimation: getWidthIconBottomBar(),
     },
     {

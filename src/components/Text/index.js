@@ -11,10 +11,10 @@ export const DateTimeText = ({children}) => {
   return <Text style={styles.dateTime}>{children}</Text>;
 };
 
-export const TitleText = ({children}) => {
-  return <Text style={styles.title}>{children}</Text>;
+export const TitleText = ({children, ...props}) => {
+  return <Text style={[styles.title, props.style]}>{children}</Text>;
 };
 
-export const DescText = ({children}) => {
-  return <Text style={styles.desc}>{children}</Text>;
+export const DescText = ({children, ...props}) => {
+  return <Text style={[styles.desc, props.style]}>{children}</Text>;
 };
