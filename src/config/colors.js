@@ -9,6 +9,7 @@ const colors = {
   blue: '#3756FF',
   cadet: '#2C364C',
   electric: '#7D8DA6',
+  line: '#E0E2E4',
 };
 
 export default colors;
